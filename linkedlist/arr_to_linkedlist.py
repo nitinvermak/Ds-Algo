@@ -1,11 +1,9 @@
 class Node():
-
     def __init__(self,data=None,next=None):
         self.data = data
         self.next = next
 
 class LinkedList():
-
     def __init__(self,head=None):
         self.head = head
 
@@ -39,6 +37,8 @@ class LinkedList():
 
 ll = LinkedList()
 
+
 ll.arrayToLinkedList([i for i in range(20)])
 ll.printList()
 ll.printLength()
+
